@@ -2,7 +2,7 @@
 *tmpy* is an Python module which allow have an TMP dir with Windows 10.
 
 # Summary
-- Using the module
+- Using the module (https://github.com/Peyton098/tmpy#using-the-module)
 
 # Using the module
 To use the module, you just need to create an instance of the class, here is an example :
