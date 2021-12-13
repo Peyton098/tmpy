@@ -5,9 +5,10 @@ class TMP_Manager :
 
     def __init__(self) -> None:
         print("--__INIT__--")
-        self.time = ((int(input("Intevalle de vérification (en heures) : ")))*60)*60
+        self.time = ((int(input("Number of hours : ")))*60)*60
+        self.username = input("Username : ")
         self.run = True
-        self.path = "C:/Users/sebas/Desktop/TMP/*"
+        self.path = "C:/Users/" + self.username + "/Desktop/TMP/*"
         self.start()
 
     def start(self) -> None :
