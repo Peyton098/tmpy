@@ -29,14 +29,22 @@ Username : peyton
 ```
 
 ## Use with parameters
-You can also use the module without having to ask the user for values. For software, for example. There are 3 parameters :
-- ``time`` : this is the time interval.
+You can also use the module without having to ask the user for values. For software, for example. There are 4 parameters :
+- ``time`` : this is the time interval in secondes.
 - ``username`` : this is the username.
 - ``path`` : this is the path of TMP dir.
-- 
+- ``visible_execution`` : this is a *boolean*. If it is false, the program does not display anything in the console. It is automatically true.
 Here is an example with explanations :
 ```Python
 import tmpy
 
-manager = tmpy.TMP_Manager(time=1, username="peyton", path="D:/DATA/TMP")
+manager = tmpy.TMP_Manager(time=3600, username="peyton", path="D:/DATA/TMP")
+```
+In this example, we do not ask the user for any value. Here is a sample output :
+```
+--__INIT__--
+--START--
+--DIR IS EMPTY--
+--IS THE TIME--
+
 ```
