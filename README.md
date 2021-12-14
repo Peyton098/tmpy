@@ -3,8 +3,12 @@
 
 # Summary
 - Using the module (https://github.com/Peyton098/tmpy#using-the-module)
+  - Standard use
+  - Use with parameters
 
 # Using the module
+
+## Standard use
 To use the module, you just need to create an instance of the class, here is an example :
 ```Python
 import tmpy
@@ -23,3 +27,9 @@ Username : peyton
 --IS THE TIME--
 
 ```
+
+## Use with parameters
+You can also use the module without having to ask the user for values. For software, for example. There are 3 parameters :
+- ``time`` : this is the time interval.
+- ``username`` : this is the username.
+- ``path`` : this is the path of TMP dir.
