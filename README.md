@@ -3,8 +3,8 @@
 
 # Summary
 - Using the module (https://github.com/Peyton098/tmpy#using-the-module)
-  - Standard use
-  - Use with parameters
+  - Standard use (https://github.com/Peyton098/tmpy/blob/main/README.md#standard-use)
+  - Use with parameters (https://github.com/Peyton098/tmpy/blob/main/README.md#use-with-parameters)
 
 # Using the module
 
