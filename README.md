@@ -33,3 +33,10 @@ You can also use the module without having to ask the user for values. For softw
 - ``time`` : this is the time interval.
 - ``username`` : this is the username.
 - ``path`` : this is the path of TMP dir.
+- 
+Here is an example with explanations :
+```Python
+import tmpy
+
+manager = tmpy.TMP_Manager(time=1, username="peyton", path="D:/DATA/TMP")
+```
